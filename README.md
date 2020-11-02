@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the companion code to "Building Reactive Rails applications with StimulusReflex". 
 
-Things you may want to cover:
+To Run this application:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - `bundle install`
+ - If you don't have redis, either install it or start with docker: `docker run -p 6379:6379 redis`
+ - `rails server`
+ - `open http://localhost:3000`
